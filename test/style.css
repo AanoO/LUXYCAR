@@ -84,7 +84,7 @@
   position: absolute;
     right: 0;
     bottom: 0;
-    top:1.6em;
+    top:0;
     right:0;
     width: 100%;
     height: 100%;
@@ -117,8 +117,11 @@
   }
   #group2 .parallax__layer--back {
     background: rgb(123,210,102);
-    background-image: url(http://www.fond-ecran-hd.net/pc-driver/212.jpg);
-    background-position: 100%;
+    background-image: url(6.jpg);width:;
+    max-width: 1600;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
   }
 
@@ -127,6 +130,11 @@
   }
   #group3 .parallax__layer--base {
     background: rgb(153,216,101);
+    background-image: url(http://www.eklecty-city.fr/wp-content/uploads/2011/09/Nike-Nike-Mag-Back-to-the-Future-Delorean-on-Set-01.jpg);
+    max-width: 1600;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   #group3 .parallax__layer--fore{
     background-image:url(); 
@@ -137,6 +145,11 @@
   }
   #group4 .parallax__layer--deep {
     background: rgb(184,223,101);
+     background-image: url(http://img1.gtsstatic.com/wallpapers/81b9583f8803bc57f708124429cb663e_large.jpeg);
+    max-width: 1600;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   #group5 {
@@ -178,18 +191,21 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }.navbar{
-  z-index: 10;
+  
 }  
+
 nav{
   margin-top: ;
   opacity: 10;
   text-align: center;
+  position:absolute;
+  margin-top: 20em;
+  margin-left: 10em;
 
 }
 ul li { 
 
-  margin-left: 05em;
+margin-left: 5em;
 display : inline;
 padding : 0 0.5em; /* Pour espacer les boutons entre eux */
 
