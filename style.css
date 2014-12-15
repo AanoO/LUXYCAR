@@ -152,7 +152,11 @@
   #group6 .parallax__layer--back {
     background: rgb(245,235,100);
     background-image: url(order2.jpg);
-    background-position: 
+    max-width: 1600;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
   }
 
   #group7 {
@@ -160,9 +164,12 @@
   }
   #group7 .parallax__layer--base {
     background: rgb(255,241,100);
-    background-color: grey
-
-  }
+    background-image: url(mh-logo.jpg);
+    max-width: 1600;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .title {
     text-align: center;
@@ -253,6 +260,7 @@ list-style-type : none; /* Car sinon les puces se placent n'importe où */
     padding:0;
     
   }
+
 
 
 
@@ -586,7 +594,7 @@ header{
 
   margin-left: 50px;
 
-  margin-top: 10px;
+  margin-top: 100px;
   }
 
 
@@ -803,4 +811,39 @@ input:focus:required:invalid {
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 
 .clearfix { zoom: 1; }
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                                     FOOTER
+
+                                   ------------------------------------------------------------------------------
+
+
+
+#group7 {
+
+position: relative;
+ 
+ }
+.footer {
+
+padding-top: 10px;
+margin-bottom: 10px;
+border-top: solid;
+border-width: 3px;
+border-color: black;
+margin-left: 50px;
+margin-right: 50px;
+max-width: 1600px;
+display: block;
+text-align: center;
+position: absolute;
+left: 240px;
+width: 1000px
+
+
 
