@@ -107,7 +107,7 @@
   }
   #group2 .parallax__layer--back {
     background: rgb(123,210,102);
-    background-image: url(6.jpg);width:;
+    background-image: url(http://imashon.com/wp-content/uploads/2014/12/Abstract-Neon-Squares-Desktop-WallPaper-HD.jpg);width:;
    max-width: 1600;
     background-position: center;
     background-size: cover;
@@ -133,7 +133,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:url(http://www.eklecty-city.fr/wp-content/uploads/2011/09/Nike-Nike-Mag-Back-to-the-Future-Delorean-on-Set-01.jpg); 
+    background-image:url(); 
   }
 
   #group4 {
@@ -141,7 +141,7 @@
   }
   #group4 .parallax__layer--deep {
     background: rgb(184,223,101);
-    background-image: url();
+    background-image: url(.jpg);
     max-width: 1600;
     background-position: center;
     background-size: cover;
@@ -149,27 +149,31 @@
   }
 
 #groupe4 .parallax__layer--back{
-
-  z-index: 3;
-  background: rgb(123,210,102);
+ background: rgb(123,210,102);
     background-image: url(6.jpg);width:;
    max-width: 1600;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
   #group5 {
     z-index: 4; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
     background: rgb(214,229,100);
+    background-image: url(http://www.luxebytrendy.com/wp-content/uploads/2013/07/Mouvement-Urwerk-EMC1.jpg); 
+    max-width: 1600;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+
   #groupe5 .parallax__layer--fore{
     max-width: 1600;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:url(http://alitrex.persiangig.com/behind-scene-7series-14-500x368.jpg);
+    background-image:url(); 
+  });
   }
 
   #group6 {
@@ -177,7 +181,7 @@
   }
   #group6 .parallax__layer--back {
     background: rgb(245,235,100);
-    background-image: url(3.jpg);
+    background-image: url(ORDER.jpg);
    max-width: 1600;
     background-position: center;
     background-size: cover;
@@ -189,7 +193,7 @@
   }
   #group7 .parallax__layer--base {
     background: rgb(255,241,100);
-    background-image: url(ruelle.jpg);
+    background-image: url(MH-logo.jpg);
 
   }
 
